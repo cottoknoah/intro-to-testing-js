@@ -13,7 +13,6 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
-
 describe('sayHello', function () {
     it('should be a defined function', function () {
         expect(typeof sayHello).toBe('function');
@@ -34,4 +33,3 @@ describe('sayHello', function () {
         expect(sayHello()).not.toBe(undefined);
     });
 });
-
